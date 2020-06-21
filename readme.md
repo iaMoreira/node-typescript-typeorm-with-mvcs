@@ -44,3 +44,7 @@ Adiciona o script de execução do projeto no `package.json`:
   ....
 }
 ```
+
+Agora é possível executar o projeto com:
+
+`yarn dev`
