@@ -13,6 +13,10 @@ Adicona o TypeScript:
 
 `yarn add typescript -D`
 
+Inicialize o arquivo de configurações do TypeScript:
+
+`yarn tsc --init`
+
 Cria a pasta `src`:
 
 `mkdir src`
@@ -46,5 +50,39 @@ Adiciona o script de execução do projeto no `package.json`:
 ```
 
 Agora é possível executar o projeto com:
+
+`yarn dev`
+
+
+Adicione o TypeORM
+
+`yarn add typeorm reflect-metadata @types/node`
+
+Adicione o MySQL
+
+`yarn add mysql`
+
+Habilite as configurações do Typescript no `tsconfig.json`
+
+```json
+  "emitDecoratorMetadata": true,
+  "experimentalDecorators": true,
+```
+
+Inicialize o arquivo de configuração do TypeORM:
+
+`yarn typeorm init`
+
+## Executar o projeto
+
+Rode o comando para instalar o modulos:
+
+`yarn install`
+
+Copie e configue o `.env`:
+
+`mv .env.example .env`
+
+Excute o projeto:
 
 `yarn dev`
