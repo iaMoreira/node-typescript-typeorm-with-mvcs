@@ -22,7 +22,7 @@
    },
    "dependencies": {
       "@types/node": "^14.0.13",
-      "express": "^4.17.1",
+      "express": "^4.17.3",
       "mysql": "^2.14.1",
       "reflect-metadata": "^0.1.10",
       "typeorm": "0.2.25"
